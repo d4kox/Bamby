@@ -12,7 +12,7 @@ def execute_exploit():
     if interprete == "p":
         os.system('cd "%UserProfile%\AppData\Roaming\Microsoft\Windows\Start Menu\exploits"')
         os.system('cd '+ name_folder)
-        os.system('python '+ name_file +'.py')
+        os.system('python '+ name_file +'.pyw')
     elif interprete == "b":
         os.system('cd "%UserProfile%\AppData\Roaming\Microsoft\Windows\Start Menu\exploits"')
         os.system('cd '+ name_folder)
