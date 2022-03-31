@@ -1,3 +1,4 @@
+@ECHO OFF
 C:
 cd "%UserProfile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
 del ejecuter.bat
